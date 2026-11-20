@@ -1,0 +1,10 @@
+{
+  "D12_I5_N": {"onset_top_k": 5, "ongoing_cutoff_factor": 1.0},
+  "D12_I5_S": {"onset_top_k": 8, "ongoing_cutoff_factor": 1.0},
+  "D7_I10_E": {"onset_top_k": 8, "ongoing_cutoff_factor": 1.2},
+  "D7_I10_W": {"onset_top_k": 1, "ongoing_cutoff_factor": 1.2},
+  "D7_I210_E": {"onset_top_k": 5, "ongoing_cutoff_factor": 1.0},
+  "D7_I210_W": {"onset_top_k": 8, "ongoing_cutoff_factor": 1.0},
+  "D7_I405_N": {"onset_top_k": 2, "ongoing_cutoff_factor": 1.2},
+  "D7_I405_S": {"onset_top_k": 8, "ongoing_cutoff_factor": 1.0}
+}

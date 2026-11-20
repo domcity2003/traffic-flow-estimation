@@ -1,0 +1,12 @@
+{
+  "D12_I405_N": {"speed_kmh": 0.95, "flow_vph": 0.25},
+  "D12_I405_S": {"speed_kmh": 0.95, "flow_vph": 0.25},
+  "D12_I5_N": {"speed_kmh": 0.85, "flow_vph": 0.25},
+  "D12_I5_S": {"speed_kmh": 0.95, "flow_vph": 0.25},
+  "D7_I10_E": {"speed_kmh": 0.85, "flow_vph": 0.25},
+  "D7_I10_W": {"speed_kmh": 0.95, "flow_vph": 0.25},
+  "D7_I210_E": {"speed_kmh": 0.85, "flow_vph": 0.25},
+  "D7_I210_W": {"speed_kmh": 0.95, "flow_vph": 0.25},
+  "D7_I405_N": {"speed_kmh": 0.85, "flow_vph": 0.25},
+  "D7_I405_S": {"speed_kmh": 0.95, "flow_vph": 0.25}
+}

@@ -1,0 +1,6 @@
+This project builds on openly published work.
+
+- The benchmark data, schemas, baseline code and scoring scripts are the organizers' MIT-licensed release (github.com/jacky850/trafficflowbench-public). `src/physics_local.py` imports one of their scorers; none of their code is copied here.
+- The idea of conditioning bottleneck onset on time of day (stage v7) came from reading a public pipeline by Sosuke Aizen; the implementation here (a Gaussian kernel over train onset events, with bandwidth chosen on January) is my own.
+- The final blending stage used gradient-boosted state and queue models published as CC0 assets by Anubisyy. Those models and the blending code are not part of this repository.
+- Public notebooks by Lam Huy and Chaitanya Jamble were read for early baselines.

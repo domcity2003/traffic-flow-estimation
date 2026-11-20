@@ -1,0 +1,19 @@
+{
+  "D12_I5_N": {
+    "onset_source": "events",
+    "onset_top_k": 3,
+    "ongoing_propagation": {"direction": "downstream", "radius": 1, "start_step": 3}
+  },
+  "D12_I5_S": {"onset_source": "events", "onset_top_k": 3},
+  "D7_I10_E": {
+    "ongoing_propagation": {"direction": "downstream", "radius": 1, "start_step": 1}
+  },
+  "D7_I210_E": {
+    "ongoing_propagation": {"direction": "upstream", "radius": 2, "start_step": 1}
+  },
+  "D7_I405_S": {
+    "onset_source": "events",
+    "onset_top_k": 8,
+    "ongoing_propagation": {"direction": "downstream", "radius": 1, "start_step": 1}
+  }
+}

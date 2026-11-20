@@ -1,0 +1,6 @@
+{
+  "D7_I10_W": {
+    "ongoing_lookback": 3,
+    "ongoing_propagation": {"direction": "downstream", "radius": 1, "start_step": 5}
+  }
+}

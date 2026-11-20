@@ -1,0 +1,102 @@
+{
+  "D12_I405_N": {
+    "flow_vph": {
+      "rank": 4,
+      "blend": 0.5
+    },
+    "speed_kmh": {
+      "rank": 2,
+      "blend": 1.0
+    }
+  },
+  "D12_I405_S": {
+    "flow_vph": {
+      "rank": 4,
+      "blend": 0.5
+    },
+    "speed_kmh": {
+      "rank": 4,
+      "blend": 1.0
+    }
+  },
+  "D12_I5_N": {
+    "flow_vph": {
+      "rank": 16,
+      "blend": 0.5
+    },
+    "speed_kmh": {
+      "rank": 16,
+      "blend": 0.5
+    }
+  },
+  "D12_I5_S": {
+    "flow_vph": {
+      "rank": 16,
+      "blend": 0.5
+    },
+    "speed_kmh": {
+      "rank": 16,
+      "blend": 0.5
+    }
+  },
+  "D7_I10_E": {
+    "flow_vph": {
+      "rank": 8,
+      "blend": 0.5
+    },
+    "speed_kmh": {
+      "rank": 8,
+      "blend": 1.0
+    }
+  },
+  "D7_I10_W": {
+    "flow_vph": {
+      "rank": 8,
+      "blend": 0.5
+    },
+    "speed_kmh": {
+      "rank": 8,
+      "blend": 0.5
+    }
+  },
+  "D7_I210_E": {
+    "flow_vph": {
+      "rank": 4,
+      "blend": 0.5
+    },
+    "speed_kmh": {
+      "rank": 4,
+      "blend": 1.0
+    }
+  },
+  "D7_I210_W": {
+    "flow_vph": {
+      "rank": 8,
+      "blend": 0.5
+    },
+    "speed_kmh": {
+      "rank": 8,
+      "blend": 0.5
+    }
+  },
+  "D7_I405_N": {
+    "flow_vph": {
+      "rank": 16,
+      "blend": 0.5
+    },
+    "speed_kmh": {
+      "rank": 16,
+      "blend": 0.5
+    }
+  },
+  "D7_I405_S": {
+    "flow_vph": {
+      "rank": 8,
+      "blend": 0.5
+    },
+    "speed_kmh": {
+      "rank": 8,
+      "blend": 0.5
+    }
+  }
+}
