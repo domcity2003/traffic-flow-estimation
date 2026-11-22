@@ -1,6 +1,6 @@
 # Findings, stage by stage
 
-Scores are the composite on the held-out validation month. Local numbers are time-disjoint backtests on train: January selects, February checks. Queue labels used locally are derived from noisy released observations, so they are proxies for the latent labels the real scorer uses.
+Competition scores here are the composite on the public validation month. Final ranking uses a different private month. Local numbers are time-disjoint backtests on train: January selects, February checks. Queue labels used locally are derived from noisy released observations, so they are proxies for the latent labels the real scorer uses.
 
 ## Where local and real disagreed
 

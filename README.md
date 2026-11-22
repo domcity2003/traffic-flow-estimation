@@ -4,6 +4,8 @@ A change that improved my held-out state reconstruction moved the real score dow
 
 That pattern repeated at most stages of this project, and the rest of the repository is built around it: local proxies that were cheap to compute, a faithful local rebuild of the one scorer I could rebuild, and a habit of treating every proxy gain as a hypothesis.
 
+![Composite score on the public validation month: 0.81188 before matrix completion, 0.81161 with the unbounded correction, and 0.81652 with the bounded correction.](docs/bounded-correction.png)
+
 ## The problem
 
 TrafficFlowBench is a synthetic freeway benchmark: ten directional panels (five corridors, both directions) at 5-minute resolution, with mainline detectors, ramp counts, link geometry, a triangular fundamental diagram and a weak origin-destination prior. Four tasks are scored together:
@@ -23,7 +25,7 @@ Only the state task can be scored locally in full. Queue labels are withheld, an
 
 ## Results
 
-Composite score on the held-out validation month, by stage:
+Composite score on the public validation month, by stage:
 
 | stage | change | score |
 |---|---|---:|
@@ -41,7 +43,7 @@ Composite score on the held-out validation month, by stage:
 | v66 to v71 | three-model onset ensemble, extra history context | 0.8688 |
 | v72 to v79 | blend with published gradient-boosted models; final weights chosen by interpolation | 0.8770 |
 
-The last two rows bring in other people's models (see `NOTICE`). The code in `src/` is my own pipeline up to and including the CNN stage and the onset ensemble; the final blending step is described in [`docs/findings.md`](docs/findings.md) but not included, because its largest component is not mine.
+The implementation in `src/` includes the CNN residual models and my onset ensemble. The **0.8770 public-validation score** is from a later blend with gradient-boosted state and queue models published by Anubisyy. The checkout contains the original pipeline and onset ensemble. See [`NOTICE`](NOTICE) for upstream attribution and [`docs/findings.md`](docs/findings.md#last-stage-blending-with-published-models) for the excluded blend and its results. Final competition ranking uses a separate private month.
 
 ## What I found
 
